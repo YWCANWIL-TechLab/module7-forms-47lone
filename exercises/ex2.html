@@ -85,6 +85,134 @@
         </section>
         <section id="answers" class="container">
 
+            <form id="form1" name="form1">
+
+                <label for="first-name">First Name:</label>
+                <input text="first-name" id="first-name" name="first-name" value="John"><br>
+                <label for="last-name">Last Name:</label>
+                <input text="last-name" id="last-name" name="last-name" value="Doe"><br>
+                <input type="submit" value="submit"> 
+
+
+            </form>
+            <br>
+
+            <form id="form2" name="form2">
+
+            <label for="first-name">First Name:</label>
+            <input text="first-name" id="first-name" name="first-name" value="John"><br>
+            <label for="first-name">Middle Name:</label>
+            <input text="middle-name" id="middle-name" name="middle-name" value="Greg" disabled> <br>
+            <label for="first-name">Last Name:</label>
+            <input text="last-name" id="last-name" name="last-name" value="Doe">
+            <input type="submit" value="submit">
+        </form> 
+
+        <br>
+
+            <form id="form3" name="form3">
+                <label for="username">Username:</label>
+                <input text="username" id="username" name="username" readonly> <br>
+                <label for="password">Password:</label>
+                <input password="password" id="password" name="password" readonly>
+                <input type="submit" value="submit"> 
+
+            </form>
+
+            <br>
+
+            <form id="form4" name="form4">
+                
+                <label for="review">Please leave us a review:</label> <br>
+                <textarea id="review" name="review" rows="4" cols="50" minlength="50"></textarea>
+                <br>
+                <input type="reset" value="Reset">
+
+            </form>
+
+            <br>
+
+            <form>
+            <label for="review">Please leave us a review:</label> <br>
+            <textarea id="review" name="review" rows="4" cols="50" minlength="50" maxlength="100"></textarea>
+            <br>
+            <input type="reset" value="Reset">
+            </form>   
+
+            <br>
+
+            <form id="form6" name="form6">
+
+                <label for="pandemic-date">Date during Covid-19 Pandemic:</label>
+                <input type="date" id="pandemic-date" name="pandemic-date" min="2020-01-31" max="2023-05-11" required>
+            </form>
+
+            <br>
+
+            <form id="form7" name="form7">
+
+                <label for="html-files">Select HTML Files:</label>
+                <input type="file" id="filepicker" name="html-files" multiple="multiple">
+
+
+            </form>
+            
+            <br>
+
+            <form id="form8" name="form8">
+
+                <label for="search"> Enter a question to search:</label>
+                <input type="search" id="search" name="search" placeholder="Who is the president?">
+                <input type="submit" value="submit"> 
+
+            </form>
+
+            <br>
+
+            <form id="form9" name="form9">
+                <label for="number-input">Pick your favorite number:</label>
+                <input type="number" id="number" name="number-input" autofocus>
+                <input type="submit" value="submit">
+
+            </form>
+
+            <br>
+
+            <form id="form10" name="form10">
+        <label for="selected-number">Select a number between 0 and 100:</label>
+        <input type="range" id="selected-number" name="selected-number" min="0" max="100" step="2">
+
+            </form>
+
+            <br>
+
+            <form id="form11" name="form11">
+
+                <label for="first-name">First Name:</label>
+                <input text="first-name" id="first-name" name="first-name" value="John"><br>
+                <label for="last-name">Last Name:</label>
+                <input text="last-name" id="last-name" name="last-name" value="Doe"><br>
+                <input type="image" src="../ alt="image" id="logo-image">
+
+            </form>
+
+            <br>
+
+            <form id="form12" name="form12">
+                <label for="favorite-fruit">Favorite Fruit:</label>
+                <input type="text" id="favorite-fruit" name="favorite-fruit" list="fruit-options" autocomplete="on">
+                <datalist id="fruit-options">
+                    <option value="Apple"></option>
+                    <option value="Banana"></option>
+                    <option value="Orange"></option>
+                    <option value="Strawberry"></option>
+                    <option value="Grapes"></option>
+                </datalist>
+
+            </form>
+
+
+
         </section>
         <script src="" async defer></script>
     </body>
